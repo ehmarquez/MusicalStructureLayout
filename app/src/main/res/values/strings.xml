@@ -2,4 +2,7 @@
     <string name="app_name">Musical Structure Layout</string>
     <string name="category_songs">Songs</string>
     <string name="category_artists">Artists</string>
+    <string name="caption_skip_previous">Skip previous</string>
+    <string name="caption_play_circle">Play circle</string>
+    <string name="caption_skip_next">Skip next</string>
 </resources>

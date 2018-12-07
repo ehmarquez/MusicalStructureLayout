@@ -1,5 +1,6 @@
 package com.example.alvin.musicalstructurelayout;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 // Create intent to open ArtistsActivity
                 Intent artistsIntent = new Intent(MainActivity.this,
-                        SongsActivity.class);
+                        ArtistsActivity.class);
                 startActivity(artistsIntent);
             }
         });

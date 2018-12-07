@@ -21,13 +21,21 @@
 
     <!-- Style for the primary info displayed -->
     <style name="PrimaryInfo">
-        <item name="android:textSize">18dp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <!-- Style for the secondary info displayed -->
     <style name="SecondaryInfo">
-        <item name="android:textSize">12dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- Style for the song_list list view -->
+    <style name="ListviewSongs">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_marginBottom">60dp</item>
     </style>
 
 </resources>
